@@ -34,7 +34,7 @@ export default function ContactSection() {
           "Accept": "application/json"
         },
         body: JSON.stringify({
-          access_key: "TU_ACCESS_KEY_AQUI", // El usuario debe reemplazar esto
+          access_key: "8cbe4e46-26a4-4a00-b90d-f7b6a5db9fbf",
           name: formData.name,
           email: formData.email,
           message: formData.message,
