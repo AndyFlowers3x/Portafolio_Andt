@@ -25,15 +25,15 @@ export default function ContactSection() {
     setErrorMsg("");
 
     try {
-      // Usamos Formspree para envío gratuito y fácil a tu correo: andt4x@outlook.es
-      const res = await fetch("https://formspree.io/f/mqaebrjr", {
+      // Usamos tu correo directamente en Formspree para que funcione al instante
+      const res = await fetch("https://formspree.io/f/andt4x@outlook.es", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          _subject: `Nuevo mensaje de portafolio: ${formData.name}`,
+          _subject: `💼 NUEVO CLIENTE POTENCIAL: ${formData.name}`,
         }),
       });
 
