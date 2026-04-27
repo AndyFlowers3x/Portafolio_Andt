@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Portfolio Tetris — Andy Flores
 
-## Getting Started
+¡Bienvenido a mi portafolio interactivo! Este proyecto combina una estética moderna y profesional con la nostalgia y jugabilidad de Tetris. Diseñado para impactar visualmente y demostrar habilidades avanzadas en el desarrollo frontend.
 
-First, run the development server:
+##  Características Principales
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Mini-Tetris Battle**: Un juego funcional integrado directamente en la sección "Sobre Mí", con habilidades especiales como *Slow Time*, *Clear Line* y *Bomb*.
+- **Neon Aesthetic**: Interfaz basada en una paleta de colores neón vibrantes (Púrpura, Cian, Rosa) con modo oscuro profundo.
+- **Animaciones de Alto Impacto**: Uso extensivo de **Framer Motion** para transiciones suaves, efectos de hover 3D en las habilidades y scroll interactivo.
+- **100% Responsive**: Experiencia optimizada para dispositivos móviles, tablets y escritorio.
+- **Tecnologías de Vanguardia**: Construido con las versiones más recientes de Next.js y React para un rendimiento excepcional.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Stack Tecnológico
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Core**: [Next.js 16 (App Router)](https://nextjs.org/) & [React 19](https://react.dev/)
+- **Styling**: [Tailwind CSS 4](https://tailwindcss.com/) (Modern engine)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Deployment**: Optimizado para Vercel o servidores Node.js.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Instalación y Uso
 
-## Learn More
+1. **Clonar el repositorio:**
+   ```bash
+   git clone https://github.com/AndyFlowers3x/portfolio-tetris.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Instalar dependencias:**
+   ```bash
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Iniciar el servidor de desarrollo:**
+   ```bash
+   npm run dev
+   ```
+   Abre [http://localhost:3000](http://localhost:3000) en tu navegador.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+##  El Juego (Habilidades Especiales)
 
-## Deploy on Vercel
+He implementado mecánicas únicas para que explorar mi portafolio sea una experiencia divertida:
+- **⏱️ Q (Slow Time)**: Ralentiza el tiempo para maniobrar mejor.
+- **🧹 W (Clear Line)**: Elimina la línea más llena para ayudarte a puntuar.
+- **👻 E (Ghost Piece)**: Te da una vista previa de dónde caerá la pieza.
+- **💣 R (Bomb)**: Limpia bloques aleatorios para salvarte en momentos críticos.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contacto
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+¿Tienes un proyecto interesante? ¡Hablemos!
+- **LinkedIn**: [Andy Flores](https://www.linkedin.com/in/andy-flores-701883312/)
+- **Instagram**: [@xyz_andt](https://www.instagram.com/xyz_andt)
+- **Email**: andt4x@outlook.es
+
+Hecho por Andy Flores
