@@ -25,15 +25,18 @@ export default function ContactSection() {
     setErrorMsg("");
 
     try {
-      // Usamos tu correo directamente en Formspree para que funcione al instante
-      const res = await fetch("https://formspree.io/f/andt4x@outlook.es", {
+      // Usamos el endpoint tradicional de Formspree que es más compatible
+      const res = await fetch("https://formspree.io/andt4x@outlook.es", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
         body: JSON.stringify({
           name: formData.name,
           email: formData.email,
           message: formData.message,
-          _subject: `💼 NUEVO CLIENTE POTENCIAL: ${formData.name}`,
+          subject: `💼 NUEVO CLIENTE: ${formData.name}`,
         }),
       });
 
